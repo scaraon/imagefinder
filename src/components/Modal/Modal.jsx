@@ -12,7 +12,7 @@ const Modal = ({ largeImageURL, close, handleClose }) => {
       <div className="Modal">
         <img className="bg" src={largeImageURL} />
 
-        <button onClick={onCloseModal} className="close">
+        <button onClick={handleClose} className="close">
           <img src={close} alt="close" />
         </button>
       </div>
